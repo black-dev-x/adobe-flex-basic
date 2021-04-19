@@ -1,0 +1,11 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:ComboBox>
+    <mx:ArrayCollection>
+      <mx:String>SC</mx:String>
+      <mx:String>ES</mx:String>
+      <mx:String>RJ</mx:String>
+      <mx:String>SP</mx:String>
+    </mx:ArrayCollection>
+  </mx:ComboBox>
+</mx:Application>

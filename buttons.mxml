@@ -1,0 +1,14 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:Label x="30" y="30" text="Random Label" fontSize="12" />
+  <mx:Button
+    x="50"
+    y="60"
+    label="Testing a Button"
+    color="yellow"
+    width="60"
+    height="100"
+    fontSize="14"
+    fontFamily="Arial"
+  />
+</mx:Application>

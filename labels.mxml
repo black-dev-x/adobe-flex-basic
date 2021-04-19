@@ -1,0 +1,13 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:Label
+    x="30"
+    y="30"
+    text="Testing a Label"
+    fontSize="12"
+    color="RED"
+    width="250"
+    textAlign="center"
+    mouseDownEffect="WipeRight"
+  />
+</mx:Application>
