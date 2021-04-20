@@ -1,0 +1,27 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:DataGrid x="50" y="50" width="450">
+    <mx:ArrayCollection>
+      <mx:Object>
+        <mx:Code>1</mx:Code>
+        <mx:Name>Black</mx:Name>
+        <mx:RandomAttribute>Any value for this attribute</mx:RandomAttribute>
+      </mx:Object>
+      <mx:Object>
+        <mx:Code>2</mx:Code>
+        <mx:Name>White</mx:Name>
+        <mx:RandomAttribute>Yet another value</mx:RandomAttribute>
+      </mx:Object>
+      <mx:Object>
+        <mx:Code>3</mx:Code>
+        <mx:Name>Gen</mx:Name>
+        <mx:RandomAttribute>Many Different Values</mx:RandomAttribute>
+      </mx:Object>
+      <mx:Object>
+        <mx:Code>4</mx:Code>
+        <mx:Name>WTF</mx:Name>
+        <mx:RandomAttribute>These Values are set on Alphabetic Order...</mx:RandomAttribute>
+      </mx:Object>
+    </mx:ArrayCollection>
+  </mx:DataGrid>
+</mx:Application>
