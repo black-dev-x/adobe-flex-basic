@@ -1,0 +1,10 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:Script>
+    <![CDATA[ import mx.controls.Alert; private function doSomething(event:Event): void { Alert.show('External Alert',
+    'Another Descriptive Message'); } ]]>
+  </mx:Script>
+  <mx:Button label="Simple Alert" click="Alert.show('Alert Title','A Descriptive Message')" x="10" y="10" />
+
+  <mx:Button label="Alert" click="doSomething(event)" x="10" y="10" />
+</mx:Application>
