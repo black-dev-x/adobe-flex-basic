@@ -1,0 +1,19 @@
+<? xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+  <mx:Button label="Simple Alert (OK)" click="Alert.show('Alert Title','A Descriptive Message')" x="10" y="10" />
+
+  <mx:Button label="Alert with Yes" click="Alert.show('Alert Title','A Descriptive Message',1)" x="10" y="30" />
+
+  <mx:Button label="Alert with No" click="Alert.show('Alert Title','A Descriptive Message',2)" x="10" y="50" />
+
+  <mx:Button label="Alert with Yes and No" click="Alert.show('Alert Title','A Descriptive Message',3)" x="10" y="70" />
+
+  <mx:Button
+    label="Alert with Ok, Yes and No"
+    click="Alert.show('Alert Title','A Descriptive Message',7)"
+    x="10"
+    y="90"
+  />
+
+  <mx:Script> <![CDATA[ import mx.controls.Alert; ]]> </mx:Script>
+</mx:Application>
